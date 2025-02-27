@@ -19,7 +19,7 @@ col1, col2 = st.columns(2)
 with col1:
   st.subheader("This is my first column, Holy moly!!")
   st.write("this column is ubicated on the left of my page?")
-  resp = st.checkbox("Im agree")
+  resp = st.checkbox("Yes sir")
   if resp:
     st.write("u are on the right side!!")
 
