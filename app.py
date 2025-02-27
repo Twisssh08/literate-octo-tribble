@@ -33,3 +33,13 @@ with col2:
   if modo == "Touch":
     st.write("TOUCH ME AND EXPLORE ME")
 
+st.subheader("THESE ARE MY FIRST BUTTONS")
+if st.button("PRESS HERE IF U WANT AN AMAZING REWARD"):
+  st.write("WAAAA, U WERE TROLLED")
+  image = Image.opem("STFU.png)
+else:
+  st.write("PRESS ME PLEASE")
+
+                  
+  
+
