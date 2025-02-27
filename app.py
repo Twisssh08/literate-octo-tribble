@@ -1,6 +1,7 @@
 import streamlit as st
 from PIL import Image
 
+set_mod = ""
 st.title("Mi primera app!!")
 
 st.header("HOLY MOLY !!")
@@ -47,7 +48,7 @@ in_mod = st.selectbox(
   ("Auditive", "Visual", "Haptic"),
 )
 if in_mod == "Audítive":
-      set_mod = "IMAGINE A SOUND.... WAIT THERE"
+    set_mod = "IMAGINE A SOUND.... WAIT THERE"
 elif in_mod == "Visual":
     set_mod = "REPRODUCIN A VIDEO... WAIT THERE"
 elif in_mod == "Haptic":
