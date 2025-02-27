@@ -26,10 +26,10 @@ with col1:
 with col2:
   st.subheader("Is this already my SECOND column!??!!")
   modo = st.radio("Wich kind of interface u want?", ("Visual", "Audítive", "Touch"))
-  if modo == "Visual"
+  if modo == "Visual":
     st.write("Look up there!!")
-  if modo == "Audítive"
+  if modo == "Audítive":
     st.write("HEAR ME OUT")
-  if modo == "Touch"
+  if modo == "Touch":
     st.write("TOUCH ME AND EXPLORE ME")
 
