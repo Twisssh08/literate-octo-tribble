@@ -36,7 +36,7 @@ with col2:
 st.subheader("THESE ARE MY FIRST BUTTONS")
 if st.button("PRESS HERE IF U WANT AN AMAZING REWARD"):
   st.write("WAAAA, U WERE TROLLED")
-  image = Image.open("STFU.png)
+  image = Image.open("STFU.png")
 else:
   st.write("PRESS ME PLEASE")
 
