@@ -8,3 +8,21 @@ st.write("raise your ya ya ya !")
 image = Image.open("HolyMoly.jpg")
 
 st.image(image, caption="holyyy god, this is a image")
+
+texto = st.text_input("Put anything here", "Omaigo")
+st.write("El texto escrito es...", texto)
+
+st.subheader("ILL PUT 2 COLUMNS THERE!!")
+
+col1, col2 = st.columns(2)
+
+with col1:
+  st.subheader("This is my first column, Holy moly!!")
+  st.write("this column is ubicated on the left of my page?")
+  resp = st-checkbox("Im agree")
+  if resp:
+    st.write("u are on the right side!!")
+
+with col2:
+  st.subheader("Is this already my SECOND column!??!!")
+
