@@ -39,7 +39,24 @@ if st.button("PRESS HERE IF U WANT AN AMAZING REWARD"):
     image = Image.open("STFU.png")
     st.image(image)
 else:
-    st.write("PRESS ME PLEASE")
+    st.write("PRESS ME PLEASE :,(")
+
+st.subheader(" ARE THESE SELECTBOXES?!")
+in_mod = st.selectbox(
+  "SELECT A MODALITY",
+  ("Auditive", "Visual", "Haptic"),
+)
+if in_mod == "Audítive"
+  set_mod = "IMAGINE A SOUND.... WAIT THERE"
+elif in_mod == "Visual"
+  set_mod = "REPRODUCIN A VIDEO... WAIT THERE"
+elif in_mod = "Haptic"
+  set_mod = "ACTIVATIN VIBRATION !!!"
+st.write("THE ACTION IS... ", set_mod)
+
+with st.sidebar:
+  st.subheader("WOOOP AND WIIIP")
+  
   
                   
   
