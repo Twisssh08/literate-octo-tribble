@@ -21,8 +21,15 @@ with col1:
   st.write("this column is ubicated on the left of my page?")
   resp = st.checkbox("Yes sir")
   if resp:
-    st.write("u are on the right side!!")
+    st.write("We are on the right side!!")
 
 with col2:
   st.subheader("Is this already my SECOND column!??!!")
+  modo = st.radio("Wich kind of interface u want?", ("Visual", "Audítive", "Touch"))
+  if modo == "Visual"
+    st.write("Look up there!!")
+  if modo == "Audítive"
+    st.write("HEAR ME OUT")
+  if modo == "Touch"
+    st.write("TOUCH ME AND EXPLORE ME")
 
