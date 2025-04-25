@@ -5,7 +5,7 @@ set_mod = ""
 st.title("Mi primera app!!")
 
 st.header("HOLY MOLY !!")
-st.write("raise your ya ya ya !")
+st.write("bombardilo crocodilo")
 image = Image.open("HolyMoly.jpg")
 
 st.image(image, caption="holyyy god, this is a image")
